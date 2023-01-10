@@ -1,0 +1,89 @@
+.noPostsWrapper {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noPostsContainer {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: 2px solid #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noPostsIcon {
+  font-size: 48px;
+}
+
+.noPostsMsg {
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 48px;
+  color: #262626;
+  text-align: center;
+}
+
+.loaderUser {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.failureViewContainer {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failureViewImage {
+  width: 560px;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 576px) {
+  .failureViewImage {
+    width: 260px;
+    margin-bottom: 32px;
+  }
+}
+
+.failureViewMsg {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #262626;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+@media (max-width: 576px) {
+  .failureViewMsg {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+}
+
+.tryAgainBtn {
+  background: #4094ef;
+  border-radius: 12px;
+  padding: 12px 32px;
+  border-width: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .tryAgainBtn {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.loginContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 576px) {
+  .loginContainer {
+    padding: 0px 24px;
+    width: 100vw;
+  }
+}
+
+.websiteImage {
+  width: 582px;
+  height: 373px;
+  margin-right: 82px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .websiteImage {
+    display: none;
+  }
+}
+
+.loginForm {
+  padding: 60px 48px 48px 48px;
+  background: #fefeff;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+  border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+  .loginForm {
+    box-shadow: none;
+    padding: 0px;
+    width: 100%;
+  }
+}
+
+.logoHeadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.websiteLogo {
+  width: 82px;
+  height: 42px;
+}
+
+@media (max-width: 576px) {
+  .websiteLogo {
+    width: 78px;
+  }
+}
+
+.websiteHeading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #262626;
+  margin-top: 12px;
+}
+
+.formContainer {
+  margin-top: 48px;
+}
+
+@media (max-width: 576px) {
+  .formContainer {
+    width: 100%;
+  }
+}
+
+.labelInputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.labelTitle {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #262626;
+  margin-bottom: 8px;
+}
+
+.inputField {
+  height: 40px;
+  width: 360px;
+  background: #eeeeee;
+  border-radius: 2px;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-width: 0px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media (max-width: 576px) {
+  .inputField {
+    width: 100%;
+  }
+}
+
+.loginBtn {
+  background: #4094ef;
+  border-radius: 8px;
+  border-width: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.errorMessage {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ef4444;
+  margin-top: 8px;
+}

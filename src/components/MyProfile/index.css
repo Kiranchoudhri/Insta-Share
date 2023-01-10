@@ -1,0 +1,265 @@
+.myProfileContainer {
+  background-color: #fafafa;
+}
+
+.profileContentsWrapper {
+  padding: 35px 200px;
+}
+
+@media (max-width: 992px) {
+  .profileContentsWrapper {
+    padding: 35px 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profileContentsWrapper {
+    padding: 28px 24px;
+  }
+}
+
+.bioSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 68px;
+}
+
+@media (max-width: 576px) {
+  .bioSection {
+    margin-bottom: 24px;
+  }
+}
+
+.profilePicContainer {
+  margin-right: 64px;
+}
+
+@media (max-width: 576px) {
+  .profilePicContainer {
+    display: none;
+  }
+}
+
+.profilePic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+@media (max-width: 576px) {
+  .profilePic {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+  }
+}
+
+.bioTextContent {
+  color: #262626;
+  list-style-type: none;
+}
+
+.profileAndStatsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.profilePicContainerSmall {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .profilePicContainerSmall {
+    display: block;
+    margin-right: 24px;
+  }
+}
+
+.profileUsername {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 576px) {
+  .profileUsername {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+}
+
+.connectionStats {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-bottom: 16px;
+}
+
+.commonTitle {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (max-width: 576px) {
+  .commonTitle {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.wholeTitle {
+  margin-right: 48px;
+}
+
+@media (max-width: 576px) {
+  .wholeTitle {
+    margin-right: 24px;
+    text-align: center;
+  }
+}
+
+.statsTitle {
+  font-weight: 500;
+}
+
+.profileUsernameSmall {
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 576px) {
+  .profileUsernameSmall {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+  }
+}
+
+.bio {
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  .bio {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.profileStoriesList {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-bottom: 36px;
+  border-bottom: 0.5px solid #c6c6c8;
+}
+
+@media (max-width: 576px) {
+  .profileStoriesList {
+    padding-bottom: 24px;
+  }
+}
+
+.profileStoryWrapper {
+  margin-right: 32px;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: 1px solid #dbdbdb;
+  padding: 2px;
+}
+
+@media (max-width: 576px) {
+  .profileStoryWrapper {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.profileStoryImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profilePostsContainer {
+  padding-top: 32px;
+}
+
+@media (max-width: 576px) {
+  .profilePostsContainer {
+    padding-top: 24px;
+  }
+}
+
+.postsIconTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 576px) {
+  .postsIconTitle {
+    margin-bottom: 12px;
+  }
+}
+
+.profilePostsIcon {
+  font-size: 17px;
+  margin-right: 16px;
+}
+
+@media (max-width: 576px) {
+  .profilePostsIcon {
+    font-size: 14px;
+    margin-right: 8px;
+  }
+}
+
+.profilePostsTitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #262626;
+}
+
+@media (max-width: 576px) {
+  .profilePostsTitle {
+    font-size: 14px;
+  }
+}
+
+.profilePostsList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profilePostItem {
+  margin-right: 25px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 576px) {
+  .profilePostItem {
+    margin: 0px 2px 3px 0px;
+  }
+}
+
+.profilePostImage {
+  width: 330px;
+  height: 330px;
+}
+
+@media (max-width: 576px) {
+  .profilePostImage {
+    width: 118px;
+    height: 118px;
+  }
+}

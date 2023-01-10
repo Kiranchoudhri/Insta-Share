@@ -1,0 +1,116 @@
+.postcardContainer {
+  background-color: #ffffff;
+  margin-bottom: 32px;
+  border: 1px solid #dbdbdb;
+  border-radius: 0px 0px 4px 4px;
+}
+
+@media (max-width: 576px) {
+  .postcardContainer {
+    border-width: 0px;
+    margin-bottom: 24px;
+  }
+}
+
+.cardProfile {
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+}
+
+.backgroundProfileImage {
+  padding: 2px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: linear-gradient(#e20337, #c60188, #7700c3);
+  margin-right: 18px;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profileName {
+  color: #262626;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.postImage {
+  width: 100%;
+  height: 614px;
+}
+
+@media (max-width: 576px) {
+  .postImage {
+    height: 375px;
+  }
+}
+
+.postCardFooter {
+  padding: 18px 24px;
+  color: #262626;
+}
+
+.userActionsContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.actionBtn {
+  background-color: transparent;
+  border-width: 0px;
+  margin-right: 17px;
+  cursor: pointer;
+}
+
+.likeIcon {
+  font-size: 24px;
+}
+
+.commentIcon {
+  font-size: 22px;
+}
+
+.shareIcon {
+  font-size: 24px;
+}
+
+.footerText {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
+
+.likesCount {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.commentedUser {
+  font-weight: 500;
+  margin-right: 4px;
+}
+
+.commentHistory {
+  display: flex;
+}
+
+.caption,
+.comment {
+  font-weight: 400;
+}
+
+.postTime {
+  color: #989898;
+}
+
+.postCardLinkItem {
+  text-decoration: none;
+  color: #262626;
+}

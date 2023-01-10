@@ -1,0 +1,167 @@
+.homeContainer {
+  background-color: #fafafa;
+}
+
+@media (max-width: 576px) {
+  .homeContainer {
+    background-color: #ffffff;
+  }
+}
+
+.homeContentsWrapper {
+  padding: 48px 200px;
+}
+
+@media (max-width: 992px) {
+  .homeContentsWrapper {
+    padding: 24px 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .homeContentsWrapper {
+    padding: 28px 0px;
+  }
+}
+
+.postsContainer {
+  list-style-type: none;
+  margin-top: 48px;
+}
+
+@media (max-width: 576px) {
+  .postsContainer {
+    margin-top: 24px;
+    border-top: 1px solid #dbdbdb;
+  }
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postsLoaderWrapper {
+  border: 1px solid #dbdbdb;
+  height: 80vh;
+}
+
+.postsLoader {
+  height: 70vh;
+}
+
+.searchResultsTitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #262626;
+  margin-bottom: 32px;
+}
+
+@media (max-width: 576px) {
+  .searchResultsTitle {
+    display: none;
+  }
+}
+
+.searchResultsWrapper {
+  padding: 32px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px rgba(123, 135, 148, 0.16);
+  border-radius: 16px;
+  list-style-type: none;
+}
+
+@media (max-width: 576px) {
+  .searchResultsWrapper {
+    box-shadow: none;
+    padding: 0px;
+  }
+}
+
+.search-not-found-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noSearchImage {
+  margin-bottom: 32px;
+}
+
+@media (max-width: 576px) {
+  .noSearchImage {
+    width: 258px;
+  }
+}
+
+.noSearchTitle {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #262626;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 576px) {
+  .noSearchTitle {
+    font-size: 20px;
+  }
+}
+
+.noSearchInfo {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #989898;
+}
+
+@media (max-width: 576px) {
+  .noSearchInfo {
+    font-size: 16px;
+  }
+}
+
+.postsFailureContainer {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.StoriesFailureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.postsFailureImage {
+  margin-bottom: 22px;
+  width: 48px;
+}
+
+.postsFailureInfo {
+  color: #262626;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.postTryAgainBtn {
+  background-color: #4094ef;
+  border-radius: 8px;
+  padding: 8px 24px;
+  border-width: 0px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.storiesLoader {
+  padding: 50px;
+}
